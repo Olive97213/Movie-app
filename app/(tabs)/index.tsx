@@ -5,6 +5,7 @@ import { images } from '@/constants/images';
 import { fetchMovies } from '@/services/api';
 import useFetch from '@/services/useFetch';
 import { useRouter } from 'expo-router';
+
 import {
   ActivityIndicator,
   FlatList,
